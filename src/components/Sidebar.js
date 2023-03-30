@@ -3,6 +3,7 @@ import logo from '../assets/hotellogo.png'
 import { FaTimes } from 'react-icons/fa'
 import { links } from '../dataNav'
 import { useGlobalContext } from '../context'
+import { Link } from 'react-router-dom'
 const Sidebar = () => {
   const { isSidebarOpen ,closeSidebar} = useGlobalContext()
   return (
