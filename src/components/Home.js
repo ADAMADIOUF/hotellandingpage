@@ -26,9 +26,9 @@ const Home = () => {
           Earum omnis nesciunt porro iste, rem eveniet impedit amet veniam hic
           reiciendis suscipit culpa?
         </p>
-        <a href={`/about`}>
+        <Link to={`/about`}>
           <button className='btn about-home-btn'>read more</button>
-        </a>
+        </Link>
         <div className='activities-line'>
           <img src={ac1} alt='' srcset='' />
         </div>

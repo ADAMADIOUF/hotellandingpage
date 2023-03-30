@@ -23,7 +23,7 @@ const Footer = () => {
                 const { id, url, icon } = link
                 return (
                   <li key={id}>
-                    <a href={url}>{icon}</a>
+                    <Link to={url}>{icon}</Link>
                   </li>
                 )
               })}

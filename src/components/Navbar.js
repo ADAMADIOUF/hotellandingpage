@@ -24,7 +24,7 @@ const Navbar = () => {
             const { url, text, id } = link
             return (
               <li key={id}>
-                <a href={url}>{text}</a>
+                <Link to={url}>{text}</Link>
               </li>
             )
           })}
@@ -34,7 +34,7 @@ const Navbar = () => {
             const { id, url, icon } = link
             return (
               <li key={id}>
-                <a href={url}>{icon}</a>
+                <Link to={url}>{icon}</Link>
               </li>
             )
           })}
